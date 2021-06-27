@@ -59,6 +59,17 @@ html, body{
 	color: #181818;
 	margin-top: 40px;
 }
+#contactDetails ul li a, a[href^=tel] {
+	text-decoration: none;
+	pointer-events: none;
+	color: #444444;
+}
+
+#contactDetails ul li a:hover {
+
+}
+
+
 section{
 	border-top: 1px ridge #dedede;
 }
